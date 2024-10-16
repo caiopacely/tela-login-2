@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Design\ sem\ nome\ \(4\).png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+height: 80vh;
+width: 80vw;
+display: flex;
+
+}
+.last{
+    background-image: url(Design\ sem\ nome.png);
+    background-size: cover;
+    height: 80vh;
+    width: 30vw;
+    border: none;
+    border-start-start-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.rigth{
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 50vw;
+    border: none;
+    border-end-end-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.pagLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: aliceblue;
+    
+}
+.text{
+    margin-bottom:30px;
+}
+.text h1{
+    margin-bottom: 10px;
+}
+.pagLeft button{
+    width: 11vw;
+    height: 5vh;
+    border: none;
+    border-radius: 15px;
+}
+.create{
+    display: flex;
+    justify-content: center;
+}
+.create h1{
+    font-size: 50px;
+    color: #40bea8;
+    margin-top: 8vh;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    color:rgb(213, 213, 213);
+    font-size: 40px;
+    padding:   15px ;
+    
+    
+    
+}
+.rigth p{
+    color:rgb(213, 213, 213);
+    text-align: center;
+    margin-top: 10px;
+}
+.inputs{
+    display: block;
+    margin-left: 12vw;
+    margin-top: 5vh;
+    
+}
+.user{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+}
+.email{
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+}
+.password{
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+}
+.inputs i{
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+    position: absolute; 
+
+    
+}
+input{
+    width: 25vw;
+    height: 5vh;
+    background-color:#d5d5d5;
+    border: none;
+}
+input::placeholder{
+    padding-left: 40px;
+}
